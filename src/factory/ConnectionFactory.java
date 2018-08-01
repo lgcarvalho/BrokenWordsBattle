@@ -24,9 +24,9 @@ public class ConnectionFactory {
         try {
             Class.forName("oracle.jdbc.driver.OracleDriver");
 
-            String url = "jdbc:oracle:thin:@192.168.56.1";
-            String usuario = "system";
-            String senha = "oracle";
+            String url = "";
+            String usuario = "";
+            String senha = "";
             
             conn = DriverManager.getConnection(url, usuario, senha);
         } catch (SQLException ex) {
